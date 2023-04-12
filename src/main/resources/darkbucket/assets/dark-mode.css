@@ -88,6 +88,10 @@
     background-color: #4d515a;
   }
 
+  .nav-pills li.active .badge {
+    color: #1B1F23 !important;
+  }
+
   /**       PANELS      **/
   .panel {
     background-color: unset !important;
@@ -124,7 +128,37 @@
     border-color: rgb(89, 89, 89) !important;
   }
 
+  .btn-default.active,
+  .btn-default.active:hover {
+    background-color: #ffa600 !important;
+  }
+
   .muted {
     color: #bbb !important;
   }
+
+  /**     TABLE     **/
+  table,
+  th,
+  tr,
+  td {
+    border-color: #3e4248 !important;
+  }
+
+  td {
+    background-color: #4d515a !important;
+  }
+
+  th {
+    background-color: #282c34 !important;
+  }
+
+  tr:hover * {
+    color: #3C8DBC !important;
+  }
+
+  td {
+    border-top: 2pt solid #3e4248;
+  }
+
 }
