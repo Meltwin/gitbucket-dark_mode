@@ -6,3 +6,6 @@
 bin/
 target/
 .cache-main
+.bloop
+.bsp
+.metals
