@@ -1,4 +1,4 @@
-package me.huzi.gitbucket.bugspots.controller
+package io.github.meltwin.darkbucket.controller
 
 import org.eclipse.jgit.api.Git
 import org.eclipse.jgit.revwalk._
@@ -7,8 +7,8 @@ import gitbucket.core.service._
 import gitbucket.core.util._
 import gitbucket.core.util.SyntaxSugars._
 import gitbucket.core.util.Directory._
-import me.huzi.gitbucket.bugspots.html
-import me.huzi.gitbucket.bugspots.util._
+import io.github.meltwin.darkbucket.html
+import io.github.meltwin.darkbucket.util._
 import scala.util.Using
 
 class BugSpotsController extends BugSpotsControllerBase

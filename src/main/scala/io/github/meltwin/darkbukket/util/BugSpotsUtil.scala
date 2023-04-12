@@ -1,4 +1,4 @@
-package me.huzi.gitbucket.bugspots.util
+package io.github.meltwin.darkbucket.util
 
 import java.time._
 import scala.jdk.CollectionConverters._

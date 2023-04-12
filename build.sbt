@@ -1,6 +1,6 @@
-val Organization = "me.huzi.gitbucket"
-val ProjectName = "gitbucket-bugspots-plugin"
-val ProjectVersion = "4.35.0"
+val Organization = "io.github.meltwin"
+val ProjectName = "darkbucket"
+val ProjectVersion = "1.0.0"
 
 lazy val root = (project in file(".")).enablePlugins(SbtTwirl)
 
