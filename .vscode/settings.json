@@ -5,9 +5,20 @@
     "**/.hg": true,
     "**/CVS": true,
     "**/.DS_Store": true,
-    "**/Thumbs.db": true
+    "**/Thumbs.db": true,
+    "target": true,
+    ".metals": true,
+    ".bloop": true,
+    ".bsp": true,
+    "project": true
   },
-  "hide-files.files": [],
+  "hide-files.files": [
+    "target",
+    ".metals",
+    ".bloop",
+    ".bsp",
+    "project"
+  ],
   "files.watcherExclude": {
     "**/target": true
   }

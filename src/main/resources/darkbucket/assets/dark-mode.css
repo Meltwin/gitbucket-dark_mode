@@ -1,0 +1,81 @@
+/**     Title    **/
+
+.icon-min,
+.icon-lg>img {
+  -webkit-filter: drop-shadow(1px 1px 0 white) drop-shadow(-1px -1px 0 white);
+  filter: drop-shadow(1px 1px 0 white) drop-shadow(-1px -1px 0 white);
+}
+
+.logo {
+  background-color: #1B1F23 !important;
+}
+
+.main-header {
+  border-bottom: 1px solid #3e4248;
+}
+
+.sidebar-toggle:hover {
+  background-color: unset !important;
+  color: #367fa9 !important;
+}
+
+/**     Sidebar    **/
+
+.main-sidebar {
+  background-color: #282c34 !important;
+}
+
+.header {
+  background-color: #1B1F23 !important;
+  color: white !important;
+}
+
+.form-control {
+  background-color: #363943 !important;
+  color: white !important;
+}
+
+
+.navbar,
+.dropdown-menu {
+  background-color: #282c34 !important;
+}
+
+.dropdown-menu {
+  border-color: #282c34 !important;
+}
+
+.menu>li:not(:nth-child(-1))>a {
+  border-bottom-color: #1B1F23 !important;
+  color: white !important;
+}
+
+.menu>li>a:hover {
+  background-color: unset !important;
+  color: #367fa9 !important;
+}
+
+.nav>li>a>i,
+span {
+  color: white !important;
+}
+
+/**     Main Wrapper    **/
+.content-wrapper {
+  background-color: #363943 !important;
+  color: white;
+}
+
+.content-wrapper a {
+  color: #3C8DBC;
+}
+
+/**     Section Navigation    **/
+
+.nav-tabs li:not(.active) a {
+  color: white;
+}
+
+.nav-tabs li:not(.active) a:hover {
+  background-color: #4d515a;
+}
