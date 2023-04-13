@@ -138,6 +138,11 @@
     border-color: #3e4248 !important;
   }
 
+  pre {
+    background-color: #40434d !important;
+    border-color: #3e4248 !important;
+  }
+
   input:not([type='submit']),
   textarea,
   select {
