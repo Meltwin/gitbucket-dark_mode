@@ -202,8 +202,11 @@
     font-variant: small-caps;
   }
 
-  strong,
   .strong:not(.header-title):not(.dropdown-toggle *) {
+    color: #00c0ef !important;
+  }
+
+  strong {
     color: #00c0ef !important;
     background-color: unset !important;
   }
