@@ -5,6 +5,7 @@ css_link.setAttribute('href', `${base_path}/plugin-assets/darkbucket/dark-mode.c
 
 document.head.appendChild(css_link);
 
+// Change Title to custom values
 document.getElementsByClassName("logo-mini")[0].children[0].src = `${base_path}/plugin-assets/darkbucket/logo.png`;
 let lg_elems = document.getElementsByClassName("logo-lg")[0].children;
 for (let i = 0; i < lg_elems.length; i++) {
@@ -15,3 +16,9 @@ for (let i = 0; i < lg_elems.length; i++) {
     lg_elems[i].innerHTML = "InnoVault";
   }
 }
+
+// Change tab icon to custom image
+var icon_link = document.querySelector("link[rel~='icon']");
+icon_link.href = `${base_path}/plugin-assets/darkbucket/logo.png`;
+
+document.title = "InnoVault";

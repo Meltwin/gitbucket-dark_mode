@@ -12,9 +12,9 @@ import javax.servlet.ServletContext
 class Plugin extends gitbucket.core.plugin.Plugin {
   override val pluginId: String = "darkbucket"
 
-  override val pluginName: String = "DarkBucket"
+  override val pluginName: String = "Innodura TB DarkBucket"
 
-  override val description: String = "Dark Mode for GitBucket"
+  override val description: String = "Dark Mode for InnoduraTB"
 
   override val versions: Seq[Version] = Seq(new Version("1.0.0"))
 
