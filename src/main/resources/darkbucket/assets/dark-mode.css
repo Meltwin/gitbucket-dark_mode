@@ -30,7 +30,8 @@
     color: white !important;
   }
 
-  .form-control {
+  .form-control,
+  .content {
     color: white !important;
   }
 
@@ -88,7 +89,7 @@
 
   }
 
-  .content-wrapper *:not(.prettyprint *) {
+  .content-wrapper *:not(.prettyprint *):not(table.diff-outside *) {
     color: white;
   }
 
@@ -105,6 +106,10 @@
     background-color: #4d515a;
   }
 
+  .nav-tabs li.active * {
+    color: #555 !important;
+  }
+
   .nav-pills li.active .badge {
     color: #1B1F23 !important;
   }
@@ -117,7 +122,8 @@
   }
 
   .panel-heading,
-  .box-header {
+  .box-header,
+  .facebox-header {
     background-color: #282c34 !important;
     color: white !important;
     border-color: #3C8DBC !important;
@@ -130,7 +136,8 @@
   }
 
   .panel-body,
-  .box-content-bottom {
+  .box-content-bottom,
+  .popup .content {
     background-color: #40434d !important;
   }
 
@@ -143,7 +150,7 @@
     border-color: #3e4248 !important;
   }
 
-  input:not([type='submit']),
+  input:not([type='submit']):not([type='button']),
   textarea,
   select {
     border-radius: 4px !important;
@@ -190,11 +197,17 @@
   .close {
     color: white !important;
     opacity: 1 !important;
+    background-color: unset !important;
   }
 
   .close:hover {
     color: rgba(255, 255, 255, 0.658) !important;
     opacity: 0.6 !important;
+  }
+
+  .close img {
+    filter: invert(100%);
+    opacity: 1 !important;
   }
 
   .muted {
@@ -230,22 +243,27 @@
     border-color: #3e4248 !important;
   }
 
-  td {
+  table:not(.diff-outside):not(.diff) td {
     background-color: #4d515a !important;
   }
 
-  th,
+  table:not(.diff-outside):not(.diff) th,
   .pullreq-info {
     background-color: #282c34 !important;
   }
 
-  tr:hover * {
+  table:not(.diff-outside):not(.diff) tr:hover * {
     color: unset !important;
   }
 
-  td {
+  table:not(.diff-outside):not(.diff) td {
     border-top: 2pt solid #3e4248;
   }
+
+  table.diff {
+    background-color: white;
+  }
+
 
   fieldset {
     border-top-color: #4d515a !important;
@@ -254,5 +272,4 @@
   .block {
     border-bottom-color: #3e4248 !important
   }
-
 }

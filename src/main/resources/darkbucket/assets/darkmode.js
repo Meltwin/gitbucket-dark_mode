@@ -13,7 +13,7 @@ for (let i = 0; i < lg_elems.length; i++) {
     lg_elems[i].src = `${base_path}/plugin-assets/darkbucket/logo.png`;
   }
   else if (lg_elems[i].localName == "span") {
-    lg_elems[i].innerHTML = "InnoVault";
+    lg_elems[i].innerHTML = "InnoGit";
   }
 }
 
@@ -21,4 +21,4 @@ for (let i = 0; i < lg_elems.length; i++) {
 var icon_link = document.querySelector("link[rel~='icon']");
 icon_link.href = `${base_path}/plugin-assets/darkbucket/logo.png`;
 
-document.title = "InnoVault";
+document.title = "InnoGit";
